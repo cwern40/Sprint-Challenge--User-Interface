@@ -112,6 +112,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes #box1 {
+    background: teal;
+}
+
+.middle-content .boxes #box2 {
+    background: gold;
+}
+
+.middle-content .boxes #box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes #box4 {
+    background: coral;
+}
+
+.middle-content .boxes #box5 {
+    background: crimson;
+}
+
+.middle-content .boxes #box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes #box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes #box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes #box9 {
+    background: indigo;
+}
+
+.middle-content .boxes #box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +183,80 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    align-self: flex-end;
+}
+
+.container .jumbo {
+    margin-top: 5%;
+}
+
+.container header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.about-top{
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.about-middle div {
+    width: 48%;
+    padding: 20px 0;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle .middle-tl {
+    padding-left: 2%;
+}
+
+.about-middle .middle-bl {
+    padding-left: 2%;
+}
+
+.about-middle .middle-tr{
+    padding-right: 2%;
+}
+
+.about-middle .middle-br{
+    padding-right: 2%;
+}
+
+.about-middle img {
+    margin-bottom: 12px;
+}
+
+.about-middle button.about {
+    text-decoration: none;
+    background: white;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    padding: 5px 15px;
+    margin-top: 5%;
+}
+
+.about-bottom {
+    margin: 40px 0;
+    padding: 0 1%;
 }
