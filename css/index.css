@@ -224,7 +224,7 @@ header nav {
 }
 
 .about-top{
-    padding: 0 1%;
+    padding: 0 2%;
     padding-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -233,29 +233,28 @@ header nav {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
+    margin: 0 2%;
 }
 
 .about-middle div {
     width: 48%;
     padding: 20px 0;
-    border-bottom: 1px dashed black;
 }
 
 .about-middle .middle-tl {
-    padding-left: 2%;
+    border-bottom: 1px dashed black;
 }
 
 .about-middle .middle-bl {
-    padding-left: 2%;
+    border-bottom: 1px dashed black;
 }
 
 .about-middle .middle-tr{
-    padding-right: 2%;
+    border-bottom: 1px dashed black;
 }
 
 .about-middle .middle-br{
-    padding-right: 2%;
+    border-bottom: 1px dashed black;
 }
 
 .about-middle img {
@@ -280,5 +279,5 @@ header nav {
 
 .about-bottom {
     margin: 5% 0;
-    padding: 0 1%;
+    padding: 0 2%;
 }
