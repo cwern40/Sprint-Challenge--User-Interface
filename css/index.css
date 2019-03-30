@@ -185,6 +185,10 @@ footer nav a {
     text-decoration: none;
 }
 
+footer nav a:hover {
+    text-decoration: underline;
+}
+
 .container header {
     display: flex;
     justify-content: space-between;
@@ -206,6 +210,10 @@ header nav {
 .container header nav a {
     text-decoration: none;
     color: black;
+}
+
+.container header nav a:hover {
+    text-decoration: underline;
 }
 
 .about-top{
@@ -254,6 +262,12 @@ header nav {
     border: 1.5px solid black;
     padding: 5px 15px;
     margin-top: 5%;
+}
+
+.about-middle button.about:hover {
+    color: white;
+    background: black;
+    cursor: pointer;    
 }
 
 .about-bottom {
