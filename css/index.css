@@ -64,6 +64,11 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 600;
 }
 
 .container {
@@ -110,6 +115,47 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: .8;
+}
+
+.middle-content .boxes #box1 {
+    background: teal;
+}
+
+.middle-content .boxes #box2 {
+    background: gold;
+}
+
+.middle-content .boxes #box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes #box4 {
+    background: coral;
+}
+
+.middle-content .boxes #box5 {
+    background: crimson;
+}
+
+.middle-content .boxes #box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes #box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes #box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes #box9 {
+    background: indigo;
+}
+
+.middle-content .boxes #box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +189,95 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+.container header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    align-self: flex-end;
+}
+
+.container .jumbo {
+    margin-top: 5%;
+}
+
+.container header nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.container header nav a:hover {
+    text-decoration: underline;
+}
+
+.about-top{
+    padding: 0 2%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 2%;
+}
+
+.about-middle div {
+    width: 48%;
+    padding: 20px 0;
+}
+
+.about-middle .middle-tl {
+    border-bottom: 1px dashed black;
+}
+
+.about-middle .middle-bl {
+    border-bottom: 1px dashed black;
+}
+
+.about-middle .middle-tr{
+    border-bottom: 1px dashed black;
+}
+
+.about-middle .middle-br{
+    border-bottom: 1px dashed black;
+}
+
+.about-middle img {
+    margin-bottom: 12px;
+}
+
+.about-middle button.about {
+    text-decoration: none;
+    background: white;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    padding: 5px 15px;
+    margin-top: 5%;
+    font-weight: 600;
+}
+
+.about-middle button.about:hover {
+    color: white;
+    background: black;
+    cursor: pointer;    
+}
+
+.about-bottom {
+    margin: 5% 0;
+    padding: 0 2%;
 }
